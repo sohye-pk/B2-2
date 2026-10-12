@@ -9,6 +9,8 @@ def normalize_spaces(text: str) -> str:
     """
     return " ".join(text.split())
 
+def test2(text):
+    return text
 
 if __name__ == "__main__":
     import argparse
